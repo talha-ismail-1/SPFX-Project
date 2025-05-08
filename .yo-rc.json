@@ -1,0 +1,18 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "20.16.0",
+    "sdksVersions": {},
+    "version": "1.21.1",
+    "libraryName": "my-aplication",
+    "libraryId": "6d08ea7c-ce8e-481d-95a0-9785eaf9e16b",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "my aplication",
+    "solutionShortDescription": "my aplication description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}
