@@ -9,10 +9,19 @@
           "manifest": "./src/webparts/home/HomeWebPart.manifest.json"
         }
       ]
+    },
+    "org-chart-prerequisites-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/orgChartPrerequisites/OrgChartPrerequisitesWebPart.js",
+          "manifest": "./src/webparts/orgChartPrerequisites/OrgChartPrerequisitesWebPart.manifest.json"
+        }
+      ]
     }
   },
   "externals": {},
   "localizedResources": {
-    "HomeWebPartStrings": "lib/webparts/home/loc/{locale}.js"
+    "HomeWebPartStrings": "lib/webparts/home/loc/{locale}.js",
+    "OrgChartPrerequisitesWebPartStrings": "lib/webparts/orgChartPrerequisites/loc/{locale}.js"
   }
 }
